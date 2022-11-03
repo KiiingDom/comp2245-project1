@@ -1,11 +1,269 @@
 /* Add your CSS to this file */
-body {
+body 
+{
     margin: 0;
     font-size: 16px;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 960px;
+.container 
+{
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
     width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+header
+{
+    background-color: white;
+}
+
+header .container 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 
+{
+    font-size: 18px;
+}
+
+header a
+{
+    text-decoration: none;
+    color: #6b7280;
+    font-weight: bold;
+}
+
+.container li 
+{
+    
+    display: inline-block;
+    padding: 5px;
+    color: #6b7280;
+}
+
+a:hover
+{
+    color: #5A67D8;
+}
+
+.overview-hero
+{
+    background-color: #E2E8F0;
+}
+.overview-hero .container 
+{
+    display: flex;
+    align-items: center;
+}
+
+.overview-hero-image
+{
+    float: left;
+    padding: 20px;
+}
+
+.overview-hero-image img
+{
+    height: 300px;
+    width: 400px;
+}
+
+.overview-hero-text
+{
+    float: right;
+}
+
+.learn-about h2
+{
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about .container .card 
+{
+    border: 2px solid ;
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 5px 5px #E2E8F0;
+    width: 300px;
+}
+
+.learn-about .container .cards .card .card-body h3
+{
+    color: #48BB78;
+    font-size: 21px;
+}
+.learn-about .container .card img 
+{
+  width: 300px;
+  height: 200px;
+}
+
+.learn-about .container .cards 
+{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(3,auto); 
+  margin: 20px 20px; 
+  grid-gap: 10px;
+  align-self: auto;
+}
+
+.card-body 
+{
+    padding: 15px;
+}
+
+.learn-about 
+{
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.learn-about .container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.testing 
+{
+    background-color: #4A5568;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.testing-desciption
+{
+    width: 600px;
+}
+
+.btn 
+{
+    background-color: #48BB78;
+    border-radius: 5px;
+    padding: 20px 50px;
+    text-decoration: none;
+    text-align: center;
+    margin: auto 0 auto 150px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.cta 
+{
+    text-align: center;
+    margin: auto 0;
+}
+
+.stories .container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px ;
+}
+.stories img 
+{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+article 
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.article-body a
+{
+    text-decoration: none;
+    color: #5A67D8;
+    font-weight: bold;
+}
+
+.stories 
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.article-body 
+{
+    float: right;
+    padding-left: 20px;
+}
+
+.stories h2
+{
+    justify-content: flex-start;
+    color: #5A67D8;
+    margin-right: auto;
+}
+
+.newsletter 
+{
+    margin: auto;
+    background-color: #48BB78;
+    color: white;
+    padding-top: 20px;
+}
+
+.newsletter .container 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+form 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#email 
+{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    text-indent: 15px;
+}
+
+.newsletter .btn
+{
+    border: none;
+    background-color: #5A67D8;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+form 
+{
+    margin-bottom: 50px;
+}
+
+footer 
+{
+    background-color: #4A5568;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
